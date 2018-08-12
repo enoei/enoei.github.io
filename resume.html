@@ -10,6 +10,26 @@
 </head>
 
 <body>
+
+<script>
+	var modal = document.getElementById('myModal');
+	var img = document.getElementById('myImg');
+	var modalImg = document.getElementById("img01");
+	var captionText = document.getElementById("caption");
+	img.onclick = function(){
+		modal.style.display = "block";
+		modalImg.src = this.src;
+		captionText.innerHTML = this.alt;
+	}
+	var span = document.getElementsByClassName("close")[0];
+	span.onclick = function() {
+	  modal.style.display = "none";
+	} 
+</script>
+
+
+
+
   <div id="main">
     <div id="header">
       <div id="logo">
@@ -20,7 +40,7 @@
       <div id="menubar">
         <ul id="menu">
           <li><a href="index.html">Home</a></li>
-          <li class="selected"><a href="Resume.html">Résumé</a></li>
+          <li class="selected"><a href="resume.html">Résumé</a></li>
           <li><a href="publications.html">Publications</a></li>
           <li><a href="contact.html">Contact Me</a></li>
         </ul>
@@ -44,29 +64,76 @@
 				
 					<h1>Awards and Honours</h1>
 					<ul>
-						<li><b>Ph.D.</b> in <b>Software Engineering</b>
+						<li>Queen's Graduate Award
 							<ul>
-								<li>Queen's University, Kingston, Ontario, Canada</li>
-								<li><i>Thesis:</i> Succeeding in Mobile Application Markets</li>
+								<li>2014 - 2018</li>
 							</ul>
-						<li><b>M.Sc.</b> in <b>Software Engineering</b>
+						
+						<li>Queen's International Student Award
 							<ul>
-								<li>Sharif University of Technology, Tehran, Iran</li>
-								<li><i>Thesis:</i> Design and Implementation of a Search Engine for Sample Applications of Object-Oriented Framework-Provided Concepts</li>
+								<li>2014 - 2018</li>
 							</ul>
+						
+						<li>Ranked 3rd amongst 45 undergraduate students of the computer science and engineering department. 
+						
+						<li>Recognized as an Elite student.						
+						
 					</ul>
 					
-					<h1>Certificates</h1>
+					<h1>Certification</h1>
 					<ul>
-						<li>Intercultural Awareness <a style="color:red" href="docs/intercultural.jpg"> [view] </a>
+						<li>Intercultural Awareness
+						<a class="lightbox" href="#intercultural">[view]</a> 
+						<div class="lightbox-target" id="intercultural">
+						<img src="docs/intercultural.jpg"/>
+						<a class="lightbox-close" href="#"></a></div>
 							<ul>
 								<li>Practicing cultural differences and gaining understanding of the Indigenous culture.</li>
 							</ul>
-						<li><b>M.Sc.</b> in <b>Software Engineering</b>
+						</li>
+						
+						<li>Health and Safety Awareness
+						<a class="lightbox" href="#safety">[view]</a> 
+						<div class="lightbox-target" id="safety">
+						<img src="docs/healthsafety.jpg"/>
+						<a class="lightbox-close" href="#"></a></div>
 							<ul>
-								<li>Sharif University of Technology, Tehran, Iran</li>
-								<li><i>Thesis:</i> Design and Implementation of a Search Engine for Sample Applications of Object-Oriented Framework-Provided Concepts</li>
+								<li>A training program that meets the regulatory requirements in Ontario.</li>
 							</ul>
+						</li>
+						
+						<li>Tri-Council Policy Statement
+						<a class="lightbox" href="#tri">[view]</a> 
+						<div class="lightbox-target" id="tri">
+						<img src="docs/tri.jpg"/>
+						<a class="lightbox-close" href="#"></a></div>
+							<ul>
+								<li>Ethical conduct for research involving humans course on research ethics.</li>
+							</ul>
+						</li>
+						
+						
+					</ul>
+					
+					<h1>Languages</h1>
+					<ul>
+						<li>English
+							<ul>
+								<li>Full Professial Proficiecy.</li>
+							</ul>
+						</li>
+						
+						<li>French
+							<ul>
+								<li>Elementary
+								<a class="lightbox" href="#francais">[view]</a> 
+								<div class="lightbox-target" id="francais">
+								<img src="docs/francais.jpg"/>
+								<a class="lightbox-close" href="#"></a></div>
+								</li>
+							</ul>
+						</li>
+												
 					</ul>
       </div>
     </div>
