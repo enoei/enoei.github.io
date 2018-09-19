@@ -208,6 +208,7 @@ text-decoration: none;}
 #content { 
 text-align: left;
 float: left;
+width: 595px;
 padding: 0;}
 
 #content_main { 
@@ -223,8 +224,8 @@ margin: 2px 0 22px 20px;}
 #content ul li { 
 list-style-type: circle;
 margin: 0 0 6px 0; 
-padding: 0 0 0px 5px;
-line-height: 1.4em;}
+padding: 0 0 4px 10px;
+line-height: 1.5em;}
 
 #footer { 
 width: 898px;
