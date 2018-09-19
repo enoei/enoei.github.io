@@ -1,5 +1,6 @@
 html { 
 height: 100%;
+overflow-y: scroll;
 }
 * { 
 margin: 0;
@@ -346,4 +347,21 @@ max-width: 100%;
 
 .lightbox-target:target a.lightbox-close {
 top: 0px;
+}
+
+.parallax {
+    height: 400px;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+	margin-left: -100vw;  margin-right: -100vw; 
+}
+
+
+.nparallax {
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+	margin-left: -100vw;  margin-right: -100vw; 
 }
