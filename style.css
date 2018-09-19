@@ -118,7 +118,6 @@ padding: 4px 0 0 0;
 color: #000;}
 
 #menubar { 
-font: normal .80em ;
 width: 898px;
 height: 52px;
 padding: 0;
@@ -140,7 +139,7 @@ border-width:1px;
 border-style: solid;
 border-color:#FFF;
 letter-spacing: 0.1em;
-font: normal 100% arial, sans-serif;
+font: normal 1em arial, sans-serif;
 display: block; 
 float: left; 
 height: 17px;
