@@ -78,7 +78,7 @@ margin: 8px 0 22px 20px;}
 ol li { 
 margin: 0 0 11px 0;}
 
-#main, #logo, #menubar, #site_content, #footer { 
+#main, #logo, #menubar, #wrap, #footer { 
 margin-left: auto; 
 margin-right: auto;}
 
@@ -174,13 +174,6 @@ border-color:#FFF;
 background: transparent;
 }
 
-#site_content { 
-width: 854px;
-overflow: hidden;
-margin: 20px auto 0 auto;
-padding: 0 0 20px 60px;
-background: #FFF;
-min-height:400px;}
  
 .sidebar { 
 float: right;
@@ -204,18 +197,20 @@ background: transparent url(li.png) no-repeat left center;}
 .sidebar li a.selected { 
 color: #7E2451;
 text-decoration: none;}
- 
-#content { 
-text-align: left;
-float: left;
-width: 595px;
-padding: 0;}
+  
+#wrap { 
+width: 854px;
+overflow: hidden;
+margin: 20px auto 0 auto;
+padding: 0 0 20px 60px;
+background: #FFF;
+min-height:400px;}
 
-#content_main { 
+
+#content { 
 font: normal 1em 'trebuchet ms', arial, sans-serif;
 text-align: left;
 float: left;
-width: 815px;
 padding: 0;}
 
 #content ul { 
@@ -224,7 +219,7 @@ margin: 2px 0 22px 20px;}
 #content ul li { 
 list-style-type: circle;
 margin: 0 0 6px 0; 
-padding: 0 0 4px 10px;
+padding: 0 0 0 5px;
 line-height: 1.5em;}
 
 #footer { 
