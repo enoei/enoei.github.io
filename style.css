@@ -8,18 +8,6 @@ body {
 	color: #000;
 }
 
-@media screen and (max-width: 1200px) {
-	#logo, #content, #header, #footer {
-		width: 95%;
-	}
-}
-
-@media screen and (max-width: 300px) {
-	#pic,#bio {
-		width: 100%; 
-	}
-}
-
 a { 
 	outline: none;
 	color: #000;
@@ -163,6 +151,17 @@ ul#menu li.selected a {
 }
 
 
+@media screen and (max-width: 1100px) {
+	#logo, #content, #header, #footer {
+		width: 95%;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	#pic,#bio {
+		width: 100%; 
+	}
+}
 
 .lightbox {
 	color:red;
