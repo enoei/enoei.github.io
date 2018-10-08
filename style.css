@@ -87,7 +87,7 @@ background: transparent;
 height: 182px;}
 
 #logo { 
-width: 898px;
+width: 60%;
 position: relative;
 height: 128px;
 }
@@ -118,7 +118,8 @@ padding: 4px 0 0 0;
 color: #000;}
 
 #menubar { 
-width: 898px;
+font: normal 1em arial, sans-serif;
+width: 60%;
 height: 52px;
 padding: 0;
 background: #FFF;
@@ -199,7 +200,7 @@ color: #7E2451;
 text-decoration: none;}
   
 #wrap { 
-width: 854px;
+width: 60%;
 overflow: hidden;
 margin: 20px auto 0 auto;
 padding: 0 0 20px 60px;
@@ -223,7 +224,7 @@ padding: 0 0 0 5px;
 line-height: 1.5em;}
 
 #footer { 
-width: 898px;
+width: 60%;
 font: normal 100% 'lucida sans unicode', arial, sans-serif;
 height: 33px;
 padding: 24px 0 5px 0;
@@ -360,4 +361,22 @@ top: 0px;
     background-position: center;
     background-repeat: no-repeat;
 	margin-left: -100vw;  margin-right: -100vw; 
+}
+
+
+#bio {
+	float: left;
+	width: 60%;
+}
+
+#pic {
+	float: left;
+	width: 240px;
+	style="padding-top: 18px;
+}
+
+@media screen and (max-width: 200px) {
+	#pic,#bio {
+		width: 100%; 
+	}
 }
