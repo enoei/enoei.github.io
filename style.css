@@ -154,12 +154,15 @@ ul#menu li.selected a {
 	width: 240px;
 }
 
-@media screen and (max-width: 1000px) {
-	#pic,#bio {
-		width: 100%; 
-	}
+@media screen and (max-width: 1100px) {
 	#logo, #content, #header, #footer {
 		width: 100%;
+	}
+}
+
+@media screen and (max-width: 300px) {
+	#pic,#bio {
+		width: 100%; 
 	}
 }
 
