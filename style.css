@@ -6,7 +6,6 @@ body {
 	font: normal .80em 'trebuchet ms', arial, sans-serif;
 	background: #FFF;
 	color: #000;
-	line-height:200%;
 }
 
 a { 
@@ -15,7 +14,21 @@ a {
 	text-decoration: none;
 }
 
-#main, #logo, #menubar, #wrap, #footer { 
+#content ul {
+	font: normal 1em 'trebuchet ms', arial, sans-serif;
+	line-height:200%;
+}
+
+#content p {
+	font: normal 1em 'trebuchet ms', arial, sans-serif;
+	line-height:200%;
+}
+
+#content h1 {
+	font: normal 2em 'trebuchet ms', arial, sans-serif;
+}
+
+#main, #logo, #menubar, #content, #footer { 
 margin-left: auto; 
 margin-right: auto;}
 
@@ -24,10 +37,9 @@ margin-right: auto;}
 	width: 60%;
 	background: transparent;
 	margin: 20px auto 0 auto;
-	min-width:600px;
 }
 
-#wrap { 
+#content { 
 	width: 60%;
 	overflow: hidden;
 	background: #FFF;
@@ -83,6 +95,7 @@ margin-right: auto;}
 	width: 100%;
 	height: 52px;
 	background: #FFF;
+	min-width:1000px;
 }
 
 ul#menu{ 
@@ -132,6 +145,8 @@ ul#menu li.selected a {
 #bio {
 	float: left;
 	width: 60%;
+	font: normal 1em 'trebuchet ms', arial, sans-serif;
+	line-height:200%;
 }
 
 #pic {
@@ -143,19 +158,10 @@ ul#menu li.selected a {
 	#pic,#bio {
 		width: 100%; 
 	}
-	#logo, #wrap, #header, #footer {
+	#logo, #content, #header, #footer {
 		width: 100%;
 	}
 }
-
-
-
-
-
-
-
-
-
 
 .lightbox {
 	color:red;
