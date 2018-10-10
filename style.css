@@ -141,13 +141,17 @@ ul#menu li.selected a {
 
 #bio {
 	float: left;
-	width: 60%;
+	width: 70%;
 	line-height:200%;
 }
 
 #pic {
 	float: left;
-	width: 240px;
+	width: 230px;
+}
+
+#pic img {
+	margin: 10px 30px 20px 0px;
 }
 
 
