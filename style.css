@@ -14,11 +14,7 @@ a {
 	text-decoration: none;
 }
 
-#content ul {
-	line-height:200%;
-}
-
-#content p {
+#content ul,p,li {
 	line-height:200%;
 }
 
@@ -38,6 +34,8 @@ margin-right: auto;}
 }
 
 #content { 
+	line-height:200%;
+	font: normal 1em 'trebuchet ms', arial, sans-serif;
 	width: 60%;
 	overflow: hidden;
 	background: #FFF;
