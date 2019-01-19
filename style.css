@@ -87,6 +87,11 @@ margin-right: auto;}
 	color: #999;
 }
 
+#logo_text h1 a .phd { 
+	font: 0.75em 'century gothic', arial, sans-serif;
+	color: #444;
+}
+
 #menubar { 
 	width: 100%;
 	height: 52px;
