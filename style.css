@@ -10,7 +10,7 @@ body {
 
 a { 
 	outline: none;
-	color: #000;
+	color: #008df1;
 	text-decoration: none;
 }
 
@@ -144,7 +144,7 @@ ul#menu li.selected a {
 
 #bio {
 	float: left;
-	width: 55%;
+	width: 50%;
 	line-height:200%;
 }
 
@@ -152,14 +152,18 @@ ul#menu li.selected a {
 	text-align: center;
 	float: left;
 	min-width: 120px;
-	width:15%;
+	width:18%;
 	line-height:200%;
+}
+
+#brand img {
+	margin: 0 0 0 50px;
 }
 
 #pic {
 	float: left;
-	width: 20%;
-	width: 230px;
+	width:20%;
+	min-width: 250px;
 }
 
 #pic img {
