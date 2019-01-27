@@ -144,15 +144,15 @@ ul#menu li.selected a {
 
 #bio {
 	float: left;
-	width: 50%;
+	width: 45%;
 	line-height:200%;
 }
 
 #brand {
 	text-align: center;
 	float: left;
-	min-width: 120px;
-	width:18%;
+	min-width: 170px;
+	width:20%;
 	line-height:200%;
 }
 
