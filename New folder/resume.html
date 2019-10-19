@@ -1,0 +1,135 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Ehsan Noei</title>
+  <meta name="description" content="Ehsan Noei" />
+  <meta name="keywords" content="Ehsan Noei" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="style.css" title="style" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+</head>
+
+<body>
+
+<script>
+	var modal = document.getElementById('myModal');
+	var img = document.getElementById('myImg');
+	var modalImg = document.getElementById("img01");
+	var captionText = document.getElementById("caption");
+	img.onclick = function(){
+		modal.style.display = "block";
+		modalImg.src = this.src;
+		captionText.innerHTML = this.alt;
+	}
+	var span = document.getElementsByClassName("close")[0];
+	span.onclick = function() {
+	  modal.style.display = "none";
+	} 
+</script>
+
+
+
+
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <h1><a href="index.html">Ehsan <span class="logo_colour">Noei</span></a></h1>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <li><a href="index.html">Home</a></li>
+          <li class="selected"><a href="resume.html">Résumé</a></li>
+          <li><a href="publications.html">Publications</a></li>
+          <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="content">
+					<h1>Education</h1>
+					<ul>
+						<li><b>Queen's University</b>
+							<ul>
+								<li>Software Engineering, <b>Ph.D.</b></li>
+								<li><i>Thesis:</i> Succeeding in Mobile Application Markets</li>
+							</ul>
+						</li>
+						<li><b>Sharif University of Technology</b></li>
+							<ul>
+								<li>Software Engineering
+								<li><i>Thesis:</i> Design and Implementation of a Search Engine for Sample Applications of Object-Oriented Framework-Provided Concepts</li>
+							</ul>
+						</li>
+					</ul>
+					
+					<h1>Major Awards and Funds</h1>
+					<ul>						
+						<li>Queen's Graduate Award
+						</li>
+						
+						<li>SIGSOFT CAPS Funds
+						</li>
+							
+						<li>Ranked 3<sup>rd</sup> amongst undergraduate students of the computer science and software engineering program
+						</li>
+						
+						<li>Recognized as an Elite student
+						</li>				
+						
+					</ul>
+					
+					<h1>Certification</h1>
+					<ul>
+						<li>Intercultural Awareness
+						<a class="lightbox" href="#intercultural"><i style="font-size: 15px; color:maroon;" class="far fa-file-alt"></i></a> 
+						<div class="lightbox-target" id="intercultural">
+						<img src="docs/intercultural.jpg"/>
+						<a class="lightbox-close" href="#"></a></div>
+						</li>
+						
+						<li>Health and Safety Awareness
+						<a class="lightbox" href="#safety"><i style="font-size: 15px; color:maroon;" class="far fa-file-alt"></i></a> 
+						<div class="lightbox-target" id="safety">
+						<img src="docs/healthsafety.jpg"/>
+						<a class="lightbox-close" href="#"></a></div>
+						</li>
+						
+						<li>Tri-Council Policy Statement
+						<a class="lightbox" href="#tri"><i style="font-size: 15px; color:maroon;" class="far fa-file-alt"></i></a> 
+						<div class="lightbox-target" id="tri">
+						<img src="docs/tri.jpg"/>
+						<a class="lightbox-close" href="#"></a></div>
+						</li>
+					</ul>
+					
+					<h1>Service</h1>
+					Reviewer and Co-Reviewer of:
+					<ul>						
+						<li>The 41<sup>th</sup> International Conference on Software Engineering (ICSE), 2018.</li>
+						<li>The 33<sup>rd</sup> &mdash; 34<sup>th</sup> International Conference on Software Maintenance and Evolution (ICSME), 2017 &mdash 2018.</li>
+						<li>The 15<sup>th</sup> &mdash; 16<sup>th</sup> International Conference on Service Oriented Computing (ICSOC), 2017 &mdash; 2018.</li>
+						<li>The  24<sup>th</sup> &mdash; 25<sup>th</sup> International Conference on Software Analysis, Evolution, and Reengineering (SANER), 2017&mdash; 2018.</li>
+						<li>The 13<sup>th</sup> &mdash; 15<sup>th</sup> International Conference on Mining Software Repositories (MSR), 2016 &mdash; 2018.</li>
+						<li>ACM Transactions on Software Engineering and Methodology (TOSEM), 2017.</li>
+						<li>The 17<sup>th</sup> International Conference on Source Code Analysis and Manipulation (SCAM), 2017.</li>			
+						
+					</ul>
+					
+					<h1>Languages</h1>
+					<ul>						
+						<li>French: Elementary
+								<a class="lightbox" href="#francais"><i style="font-size: 15px; color:maroon;" class="far fa-file-alt"></i></a> 
+								<div class="lightbox-target" id="francais">
+								<img src="docs/francais.jpg"/>
+								<a class="lightbox-close" href="#"></a></div>
+						</li>
+					</ul>
+    </div>
+    <div id="footer">
+    </div>
+  </div>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120918697-1"></script><script>  window.dataLayer = window.dataLayer || [];  function gtag(){dataLayer.push(arguments);}  gtag('js', new Date());  gtag('config', 'UA-120918697-1');</script>
+</body>
+</html>

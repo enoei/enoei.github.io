@@ -1,0 +1,300 @@
+html {
+	overflow-y: scroll;
+}
+
+body { 
+	font: normal 0.8em 'trebuchet ms', arial, sans-serif;
+	background: #FFF;
+	color: #000;
+}
+
+a { 
+	outline: none;
+	color: #008df1;
+	text-decoration: none;
+}
+
+#content ul,p,li {
+	line-height:200%;
+}
+
+#content h1 {
+	font: normal 2em 'trebuchet ms', arial, sans-serif;
+}
+
+#main, #logo, #menubar, #content, #footer { 
+margin-left: auto; 
+margin-right: auto;}
+
+
+#header {
+	width: 60%;
+	background: transparent;
+	margin: 20px auto 0 auto;
+}
+
+#content { 
+	line-height:200%;
+	font: normal 1em 'trebuchet ms', arial, sans-serif;
+	width: 60%;
+	overflow: hidden;
+	background: #FFF;
+	margin: 20px auto 0 auto;
+}
+
+
+#footer { 
+	width: 60%;
+	height: 33px;
+	margin: 20px auto 0 auto;
+	text-align: center; 
+	background: transparent;
+	color: #000;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+}
+
+#footer a { 
+	color: #000;
+	text-decoration: none;
+}
+
+#footer a:hover { 
+	color: #000;
+	text-decoration: underline;
+}
+
+#logo { 
+	width: 100%;
+	position: relative;
+}
+
+#logo #logo_text  { 
+	position: relative;
+	border-bottom: 0;
+}
+
+#logo h1, #logo h2 { 
+	font: 3em 'century gothic', arial, sans-serif;
+}
+
+#logo_text h1, #logo_text h1 a, #logo_text h1 a:hover  { 
+	color: #000;
+	text-decoration: none;
+}
+
+#logo_text h1 a .logo_colour { 
+	color: #999;
+}
+
+#logo_text h1 a .phd { 
+	font: 0.75em 'century gothic', arial, sans-serif;
+	color: #444;
+}
+
+#menubar { 
+	width: 100%;
+	height: 52px;
+	background: #FFF;
+}
+
+ul#menu{ 
+	float: left;
+	margin: 0 0 0 -40px;
+}
+
+ul#menu li { 
+	float: left;
+	list-style: none;
+}
+
+ul#menu li a {
+	border-width:1px;
+	border-style: solid;
+	border-color:#FFF;
+	letter-spacing: 0.1em;
+	display: block; 
+	float: left; 
+	padding: 10px 20px 10px 20px;
+	color: #777;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+ 
+ul#menu li a:hover { 
+	color: #777;
+	border-width:1px;
+	border-style: solid;
+	border-color:#777;
+}
+
+ul#menu li.selected a:hover { 
+	color: #000;
+	border-width:1px;
+	border-style: solid;
+	border-color:#000;
+}
+
+ul#menu li.selected a { 
+	color: #000;
+	border-width:1px;
+	border-style: solid;
+	border-color:#FFF;
+}
+
+#bio {
+	float: left;
+	width: 45%;
+	line-height:200%;
+}
+
+#brand {
+	text-align: center;
+	float: left;
+	min-width: 170px;
+	width:20%;
+	line-height:200%;
+}
+
+#brand img {
+	margin: 0 0 0 50px;
+}
+
+#pic {
+	float: left;
+	width:20%;
+	min-width: 250px;
+}
+
+#pic img {
+	margin: 10px 30px 20px 0px;
+}
+
+
+@media screen and (max-width: 1300px) {
+	#logo, #content, #header, #footer {
+		width: 95%;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	#pic,#bio {
+		width: 100%; 
+	}
+}
+
+.lightbox {
+	color:maroon;
+}
+
+.lightbox-target {
+position: fixed;
+top: -100%;
+left:0px;
+width: 100%;
+background: rgba(0,0,0,.7);
+width: 100%;
+opacity: 0;
+-webkit-transition: opacity .5s ease-in-out;
+-moz-transition: opacity .5s ease-in-out;
+-o-transition: opacity .5s ease-in-out;
+transition: opacity .5s ease-in-out;
+overflow: hidden;
+}
+
+.lightbox-target img {
+margin: auto;
+position: absolute;
+top: 0;
+left:0;
+right:0;
+bottom: 0;
+max-height: 0%;
+max-width: 0%;
+border: 3px solid white;
+box-shadow: 0px 0px 8px rgba(0,0,0,.3);
+box-sizing: border-box;
+-webkit-transition: .5s ease-in-out;
+-moz-transition: .5s ease-in-out;
+-o-transition: .5s ease-in-out;
+transition: .5s ease-in-out;
+}
+
+a.lightbox-close {
+display: block;
+width:50px;
+height:50px;
+box-sizing: border-box;
+background: white;
+color: black;
+text-decoration: none;
+position: absolute;
+top: -80px;
+right: 0;
+-webkit-transition: .5s ease-in-out;
+-moz-transition: .5s ease-in-out;
+-o-transition: .5s ease-in-out;
+transition: .5s ease-in-out;
+}
+
+a.lightbox-close:before {
+content: "";
+display: block;
+height: 30px;
+width: 1px;
+background: black;
+position: absolute;
+left: 26px;
+top:10px;
+-webkit-transform:rotate(45deg);
+-moz-transform:rotate(45deg);
+-o-transform:rotate(45deg);
+transform:rotate(45deg);
+}
+
+a.lightbox-close:after {
+content: "";
+display: block;
+height: 30px;
+width: 1px;
+background: black;
+position: absolute;
+left: 26px;
+top:10px;
+-webkit-transform:rotate(-45deg);
+-moz-transform:rotate(-45deg);
+-o-transform:rotate(-45deg);
+transform:rotate(-45deg);
+}
+
+.lightbox-target:target {
+opacity: 1;
+top: 0;
+bottom: 0;
+}
+
+.lightbox-target:target img {
+max-height: 100%;
+max-width: 100%;
+}
+
+.lightbox-target:target a.lightbox-close {
+top: 0px;
+}
+
+.parallax {
+    height: 400px;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+	margin-left: -100vw;  margin-right: -100vw; 
+}
+
+
+.nparallax {
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+	margin-left: -100vw;  margin-right: -100vw; 
+}
