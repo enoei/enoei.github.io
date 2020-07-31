@@ -96,7 +96,7 @@ author:
   name             : 
   avatar           : "/assets/images/noei.jpg"
   bio              : 
-  location         : "Toronto, Ontario"
+  location         :
   email            :
   links:
     - label: "Email"
