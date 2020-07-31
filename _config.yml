@@ -96,10 +96,10 @@ author:
   name             : 
   avatar           : "/assets/images/noei.jpg"
   bio              : 
-  location         : "Toronto, ON, Canada"
+  location         : "Toronto, Ontario"
   email            :
   links:
-    - label: "Email: e.[lastname]@utoronto.ca"
+    - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:e.[lastname]@utoronto.ca"
     - label: "Scholar"
