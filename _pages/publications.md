@@ -8,7 +8,7 @@ author_profile: true
 
 
 <p>
-<h1>Refereed Journal Publications:</h1>
+<h2>Refereed Journal Publications:</h2>
     <ul style="text-align:justify">
         <li><b>E. Noei</b>, F. Zhang, S. Wang, and Y. Zou, <a target="_blank" href="http://dx.doi.org/10.1007/s10664-019-09684-y">"Towards prioritizing user-related issue reports of mobile applications" <i style="font-size: 10px; color:darkgrey;" class="fas fa-external-link-alt"></i></a>, <i>Empirical Software Engineering</i>, 2019.
         <br/>
@@ -26,7 +26,7 @@ author_profile: true
 </p>
 
 <p>
-<h1>Refereed Conference and Workshop Publications:</h1>
+<h2>Refereed Conference and Workshop Publications:</h2>
     <ul style="text-align:justify">		
         <li>S. Brisson, <b>E. Noei</b>, and K. Lyons, <a target="_blank" href="#">"We are family: Analyzing communication in github software repositories and their forks" <i style="font-size: 10px; color:darkgrey;" class="fas fa-external-link-alt"></i></a>, <i>In Proceedings of the 27th IEEE International Conference on Software Analysis, Evolution and Reengineering</i>, 2020, London, Ontario, Canada.
         <br/>

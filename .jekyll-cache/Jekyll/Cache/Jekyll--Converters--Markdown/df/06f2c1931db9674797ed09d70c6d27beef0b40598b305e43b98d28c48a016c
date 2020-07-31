@@ -1,12 +1,4 @@
----
-layout: page
-permalink: service
-title: ""
-author_profile: true
----
-
-
-<h2>Reviewer and Co-Reviewer</h2>
+I"Y<h2>Reviewer and Co-Reviewer</h2>
 <ul style="text-align:justify">
     <li>The 28<sup>th</sup> ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE), 2020.</li>
     <li>The 2014 &mdash; 2020 Conference on Computer Science and Software Engineering.</li>
@@ -23,4 +15,5 @@ author_profile: true
 <ul style="text-align:justify">
 <li>International Workshop on Data Science for Mobile Apps (DS4MA), co-located with SANER 2020.</li>
 </ul>
-		
+
+:ET
