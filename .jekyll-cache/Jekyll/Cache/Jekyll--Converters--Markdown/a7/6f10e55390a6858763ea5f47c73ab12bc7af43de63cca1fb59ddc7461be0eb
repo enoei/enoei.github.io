@@ -1,4 +1,4 @@
-I"Y<h2>Reviewer and Co-Reviewer</h2>
+I"š<h2>Reviewer and Co-Reviewer</h2>
 <ul style="text-align:justify">
     <li>The 28<sup>th</sup> ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE), 2020.</li>
     <li>The 2014 &mdash; 2020 Conference on Computer Science and Software Engineering.</li>
@@ -15,5 +15,16 @@
 <ul style="text-align:justify">
 <li>International Workshop on Data Science for Mobile Apps (DS4MA), co-located with SANER 2020.</li>
 </ul>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-174161302-1"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-174161302-1');
+</script>
 
 :ET
