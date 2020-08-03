@@ -202,7 +202,7 @@ exclude:
   - Rakefile
   - README
   - tmp
-  - /docs # ignore Minimal Mistakes /docs
+  - /docg # ignore Minimal Mistakes /docsg
   - /test # ignore Minimal Mistakes /test
 keep_files:
   - .git
