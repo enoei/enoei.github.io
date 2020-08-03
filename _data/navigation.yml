@@ -8,6 +8,8 @@ main:
     url: /service
   - title: "Publications"
     url: /publications
+  - title: "Docs"
+    url: /docs
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
