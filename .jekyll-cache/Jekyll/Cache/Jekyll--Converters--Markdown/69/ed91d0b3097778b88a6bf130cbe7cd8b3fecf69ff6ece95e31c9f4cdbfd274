@@ -1,9 +1,9 @@
-I"Î<p>
+I"T<p>
 <h2>Refereed Journal Publications:</h2>
     <ul style="text-align:justify">
         <li><b>E. Noei</b>, F. Zhang, S. Wang, and Y. Zou, <a target="_blank" href="http://dx.doi.org/10.1007/s10664-019-09684-y">"Towards prioritizing user-related issue reports of mobile applications" <i style="font-size: 10px; color:darkgrey;" class="fas fa-external-link-alt"></i></a>, <i>Empirical Software Engineering</i>, 2019.
         <br />
-        <b>Download: <a target="_top" style="font-size: 32px; color:maroon;" href="http://post.queensu.ca/~zouy/files/EMSE-2018-noei.pdf"><i class="far fa-file-pdf"></i></a> <a style="font-size: 32px; color:maroon;" href="./papers/noei2019prioritizing-presentation.pdf"> <i class="far fa-file-powerpoint"></i></a></b></li>
+        <b>Download: <a target="_top" style="font-size: 32px; color:maroon;" href="./papers/noei2019prioritizing.pdf"><i class="far fa-file-pdf"></i></a> <a style="font-size: 32px; color:maroon;" href="./papers/noei2019prioritizing-presentation.pdf"> <i class="far fa-file-powerpoint"></i></a></b></li>
         <br />
         <li><b>E. Noei</b>, F. Zhang, and Y. Zou, <a target="_blank" href="http://dx.doi.org/10.1109/TSE.2019.2893171">"Too many user-reviews! What should app developers look at first?" <i style="font-size: 10px; color:darkgrey;" class="fas fa-external-link-alt"></i></a>, <i>IEEE Transactions on Software Engineering</i>, 2019.
         <br />
@@ -34,11 +34,37 @@
         <br />
         <li><b>E. Noei</b>, D. da Costa, and Y. Zou, <a target="_blank" href="http://dx.doi.org/10.1145/3236024.3236044">"Winning the app production rally" <i style="font-size: 10px; color:darkgrey;" class="fas fa-external-link-alt"></i></a>, <i>In Proceedings of the 26th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE)</i>, 2018, Lake Buena Vista, FL, USA.
         <br />
-        <b>Download: <a style="font-size: 32px; color:maroon;" href="http://post.queensu.ca/~zouy/files/fse2018.pdf"> <i class="far fa-file-pdf"></i></a> <a style="font-size: 32px; color:maroon;" href="./papers/noei2018winning-presentation.pdf"> <i class="far fa-file-powerpoint"></i></a></b></li>	
+        <b>Download: <a style="font-size: 32px; color:maroon;" href="./papers/noei2018winning.pdf"> <i class="far fa-file-pdf"></i></a> <a style="font-size: 32px; color:maroon;" href="./papers/noei2018winning-presentation.pdf"> <i class="far fa-file-powerpoint"></i></a></b></li>	
         <br />
         <li><b>E. Noei</b>, M. D. Syer, Y. Zou, A. E. Hassan, and I. Keivanloo, <a target="_blank" href="http://dx.doi.org/10.1109/SANER.2018.8330235">"A study of the relation of mobile device attributes with the user-perceived quality of Android apps" <i style="font-size: 10px; color:darkgrey;" class="fas fa-external-link-alt"></i></a>, <i>In Proceedings of the 25th International Conference on Software Analysis, Evolution and Reengineering (SANER)</i>, 2018,  Campobasso, Italy.
         <br />
         <b>Download: <a style="font-size: 32px; color:maroon;" href="./papers/noei2018device-presentation.pdf"> <i class="far fa-file-powerpoint"></i></a></b></li>
     </ul>
 </p>
+
+<!-- Default Statcounter code for Homepage https://enoei.github.io/ -->
+<script type="text/javascript">
+var sc_project=12369002; 
+var sc_invisible=1; 
+var sc_security="c6459cff"; 
+var sc_https=1; 
+</script>
+
+<script type="text/javascript" src="https://www.statcounter.com/counter/counter.js" async=""></script>
+
+<noscript><div class="statcounter"><a title="Web Analytics Made Easy -
+StatCounter" href="https://statcounter.com/" target="_blank"><img class="statcounter" src="https://c.statcounter.com/12369002/0/c6459cff/1/" alt="Web Analytics Made Easy - StatCounter" /></a></div></noscript>
+<!-- End of Statcounter Code -->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-174161302-1"></script>
+
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'UA-174161302-1');
+</script>
+
 :ET
