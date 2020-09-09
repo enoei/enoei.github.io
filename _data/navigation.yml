@@ -4,10 +4,12 @@ main:
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   - title: "Home"
     url: /
-  - title: "Service"
-    url: /service
   - title: "Publications"
     url: /publications
+  - title: "Service"
+    url: /service
+  - title: "Teaching"
+    url: /teaching
   #- title: "Docs"
   #  url: /docs
   # - title: "Sample Collections"
