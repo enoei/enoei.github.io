@@ -31,5 +31,5 @@ header_pages:
   - docs.md
   - publications.md
 
-markdown: kramdown
+#markdown: kramdown
 
