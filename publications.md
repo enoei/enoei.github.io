@@ -1,70 +1,46 @@
-<!DOCTYPE html>
-<html lang="en">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; img-src 'self'; font-src 'self' https://fonts.gstatic.com; connect-src 'self'; media-src 'self'; object-src 'self'; child-src 'self'; form-action 'none'; base-uri 'self'" />
-<meta http-equiv="X-XSS-Protection"  content="1;mode=block" always>
-<meta http-equiv="Referrer-Policy" content="no-referrer, strict-origin-when-cross-origin"><head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-  <title>/publications</title><!-- Begin Jekyll SEO tag v2.7.1 -->
-<meta name="generator" content="Jekyll v4.2.0" />
-<meta property="og:title" content="/publications" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="Ehsan Noei Homepage" />
-<meta property="og:description" content="Ehsan Noei Homepage" />
-<link rel="canonical" href="https://enoei.github.io/publications" />
-<meta property="og:url" content="https://enoei.github.io/publications" />
-<meta property="og:site_name" content="Ehsan Noei" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="/publications" />
-<script type="application/ld+json">
-{"@type":"WebPage","headline":"/publications","url":"https://enoei.github.io/publications","description":"Ehsan Noei Homepage","@context":"https://schema.org"}</script>
-<!-- End Jekyll SEO tag -->
-<link rel="stylesheet" type="text/css" href="/assets/main-hacker.css"></head>
-<body>
-    <div class="container"><header>
-  <div class="menu">
-    <ul><li><a href="/">/</a></li><li><a href="/docs">/docs</a></li><li><a href="/publications">/publications</a></li></ul>
-  </div>
-</header>
-<main>
-      <ul style="text-align:justify;">
+---
+title: /publications
+layout: page
+permalink: /publications
+---
+
+<ul style="text-align:justify;">
     <li><b>E. Noei</b>, F. Zhang, and Y. Zou, <a target="_blank" href="http://dx.doi.org/10.1109/TSE.2019.2893171">"Too many user reviews! What should app developers look at first?" <img width="10px" alt="Ehsan Noei" src="images/ex.png" /></a>, <i>IEEE Transactions on Software Engineering</i>, vol. 47, no. 2, pp. 367 — 378, 2021.
-    <br />
+    <br/>
     <a href="./papers/noei2019keytopics.pdf">[PDF]</a></li>
-    <br />
+    <br/>
     <li><b>E. Noei</b>, T. Hayat, J. Perrie, R. Colak, Y. Hao, S. Vembu, K. Lyons, S. Molyneux, <a target="_blank" href="http://dx.doi.org/10.1007/s00799-021-00300-3">"A qualitative study of large-scale recommendation algorithms for biomedical knowledge bases" <img width="10px" alt="Ehsan Noei" src="images/ex.png" /></a>, <i>Digital Libraries</i>, vol. 22, no. 2, pp. 197 — 215, 2021.
-    <br />
+    <br/>
     <a href="./papers/noei2021recommender.pdf">[PDF]</a></li>
-    <br />
+    <br/>
     <li>S. Brisson, <b>E. Noei</b>, and K. Lyons, <a target="_blank" href="http://dx.doi.org/10.1109/SANER48275.2020.9054834">"We are family: Analyzing communication in github software repositories and their forks" <img width="10px" alt="Ehsan Noei" src="images/ex.png" /></a>, <i>In Proceedings of the 27th IEEE International Conference on Software Analysis, Evolution and Reengineering</i>, 2020, London, Ontario, Canada.
-    <br />
+    <br/>
     <a href="./papers/brisson2019family.pdf">[PDF]</a></li>
-    <br />
+    <br/>
     <li><b>E. Noei</b> and K. Lyons, <a target="_blank" href="https://dl.acm.org/citation.cfm?id=3370278">"A Survey of Utilizing User-Reviews Posted on Google Play Store" <img width="10px" alt="Ehsan Noei" src="images/ex.png" /></a>, <i>In Proceedings of the 29th Conference on Computer Science and Software Engineering</i>, 2019, Toronto, Ontario, Canada.
-    <br />
+    <br/>
     <a href="./papers/noei2019utilizing.pdf">[PDF]</a> <a href="./papers/noei2019utilizing-presentation.pdf">[slides]</a></li>
-    <br />
+    <br/>
     <li><b>E. Noei</b>, K. Lyons, E. Stroulia, and P. Andritsos, <a target="_blank" href="https://dl.acm.org/citation.cfm?id=3370325">"Fourth annual workshop on data-driven knowledge mobilization" <img width="10px" alt="Ehsan Noei" src="images/ex.png" /></a>, <i>In Proceedings of the 29th Conference on Computer Science and Software Engineering</i>, 2019, Toronto, Ontario, Canada.</li>
-    <br />
+    <br/>
     <li><b>E. Noei</b>, F. Zhang, S. Wang, and Y. Zou, <a target="_blank" href="http://dx.doi.org/10.1007/s10664-019-09684-y">"Towards prioritizing user-related issue reports of mobile applications" <img width="10px" alt="Ehsan Noei" src="images/ex.png" /></a>, <i>Empirical Software Engineering</i>, vol. 24, no. 4, pp. 1964 — 1996, 2019.
-    <br />
+    <br/>
     <a href="./papers/noei2019prioritizing.pdf">[PDF]</a> <a href="./papers/noei2019prioritizing-presentation.pdf">[slides]</a></li>
-    <br />
+    <br/>
     <li><b>E. Noei</b>, D. da Costa, and Y. Zou, <a target="_blank" href="http://dx.doi.org/10.1145/3236024.3236044">"Winning the app production rally" <img width="10px" alt="Ehsan Noei" src="images/ex.png" /></a>, <i>In Proceedings of the 26th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE)</i>, 2018, Lake Buena Vista, FL, USA.
-    <br />
+    <br/>
     <a href="./papers/noei2018winning.pdf">[PDF]</a> <a href="./papers/noei2018winning-presentation.pdf">[slides]</a></li>	
-    <br />
+    <br/>
     <li><b>E. Noei</b>, M. D. Syer, Y. Zou, A. E. Hassan, and I. Keivanloo, <a target="_blank" href="http://dx.doi.org/10.1109/SANER.2018.8330235">"A study of the relation of mobile device attributes with the user-perceived quality of Android apps" <img width="10px" alt="Ehsan Noei" src="images/ex.png" /></a>, <i>In Proceedings of the 25th International Conference on Software Analysis, Evolution and Reengineering (SANER)</i>, 2018,  Campobasso, Italy.
-    <br />
+    <br/>
     <a href="./papers/noei2018device-presentation.pdf">[slides]</a></li>
-    <br />
+    <br/>
     <li><b>E. Noei</b>, M. D. Syer, Y. Zou, A. E. Hassan, and I. Keivanloo, <a target="_blank" href="http://dx.doi.org/10.1007/s10664-017-9507-3">"A study of the relation of mobile device attributes with the user-perceived quality of Android apps" <img width="10px" alt="Ehsan Noei" src="images/ex.png" /></a>, <i>Empirical Software Engineering</i>, vol. 22, no. 6, pp. 3088 &mdash; 3116, 2017.
-    <br />
+    <br/>
     <a href="http://sail.cs.queensu.ca/Downloads/EMSE2017_AStudyOfTheRelationOfMobileDeviceAttributesWithTheUser-perceivedQualityOfAndroidApps.pdf">[PDF]</a></li>
-    <br />
+    <br/>
     <li><b>E. Noei</b> and A. Heydarnoori, <a target="_blank" href="http://dx.doi.org/10.1016/j.infsof.2016.03.007">"EXAF: A search engine for sample applications of object-oriented framework-provided concepts" <img width="10px" alt="Ehsan Noei" src="images/ex.png" /></a>, <i> Information and Software Technology</i>, vol. 75, pp. 135 &mdash; 147, 2016.
-    <br />
+    <br/>
     <a href="./papers/noei2016EXAF.pdf">[PDF]</a></li>
 </ul>
 
@@ -75,16 +51,16 @@ var sc_invisible=1;
 var sc_security="c6459cff"; 
 var sc_https=1; 
 </script>
-
-<script type="text/javascript" src="https://www.statcounter.com/counter/counter.js" async=""></script>
-
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js" async></script>
 <noscript><div class="statcounter"><a title="Web Analytics Made Easy -
-StatCounter" href="https://statcounter.com/" target="_blank"><img class="statcounter" src="https://c.statcounter.com/12369002/0/c6459cff/1/" alt="Web Analytics Made Easy - StatCounter" /></a></div></noscript>
+StatCounter" href="https://statcounter.com/" target="_blank"><img
+class="statcounter" src="https://c.statcounter.com/12369002/0/c6459cff/1/"
+alt="Web Analytics Made Easy - StatCounter"></a></div></noscript>
 <!-- End of Statcounter Code -->
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-174161302-1"></script>
-
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-174161302-1"></script>
 <script>
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
@@ -92,12 +68,3 @@ gtag('js', new Date());
 
 gtag('config', 'UA-174161302-1');
 </script>
-
-
-
-    </main><footer>
-  
-</footer>
-</div>
-  </body>
-</html>
