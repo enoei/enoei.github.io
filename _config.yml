@@ -23,6 +23,7 @@ url                      : "https://enoei.github.io"
 # Build settings
 #theme: minima
 theme: jekyll-theme-console
+remote_theme: b2a3e8/jekyll-theme-console
 style: hacker # dark (default), light or hacker
 
 header_pages:
