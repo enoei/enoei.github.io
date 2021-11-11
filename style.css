@@ -112,7 +112,7 @@ a:hover { color: var(--background-color); background-color: var(--base-color); }
 
 p { word-wrap: break-word; word-break: break-word; white-space: pre-wrap; margin-bottom: 15px; }
 
-footer { color: var(--text-color); border-top: var(--border); margin: 20px auto 15px; padding-top: 10px; text-align: center; }
+footer { font-size: 14px; color: var(--text-color); border-top: var(--border); margin: 20px auto 15px; padding-top: 10px; text-align: right; }
 
 header { margin-top: 25px; margin-bottom: 10px; }
 
@@ -120,7 +120,9 @@ header p { text-align: left; margin: 0; }
 
 footer { margin-bottom: 20px; }
 
-footer a:hover { background-color: var(--background-color); }
+footer a:hover { text-decoration: underline; color: var(--text-color); background-color: var(--background-color); }
+
+footer a { text-decoration: none; }
 
 footer a img { width:32px; }
 
