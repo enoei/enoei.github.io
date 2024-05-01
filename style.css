@@ -124,7 +124,10 @@ footer a:hover { text-decoration: none; color: var(--background-color); backgrou
 
 footer a { text-decoration: none; }
 
-footer a img { width:32px; }
+footer a img { width:10px; }
+
+footer img { width:10px; }
+
 
 /** Highlight/Markup */
 ::selection { background: var(--selection-background); color: var(--selection-text); }
